@@ -1,0 +1,56 @@
+.hero {
+padding-top: 118px;
+padding-bottom: 118px;
+margin-left: auto;
+margin-right: auto;
+letter-spacing: 0.06em;
+text-align: center;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+margin: 0 auto;
+background-color: var(--footer-hero-color);
+@media screen and (max-width:767px) {
+background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+ url("/imeges8/Hero/heromobile1x-min.jpg");
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("/imeges8/Hero/heromobile2x-min.jpg");}
+}
+@media screen and (min-width:768px) {
+background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+ url("/imeges8/Hero/herotablet1x-min.jpg");
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+url("/imeges8/Hero/herotablet2x-min.jpg")}
+}
+@media screen and (min-width: 1200px) {
+background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+ url("/imeges8/Hero/Herodestop1x-min.jpg");
+@media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+url("/imeges8/Hero/Herodestop2x-min.jpg")}
+}}
+
+.container--hero {
+margin-left: auto;
+margin-right: auto;
+padding-left: 15px;
+padding-right: 15px;
+  @media screen and (min-width: 480px) {
+    width: 480px;}
+  @media screen and (min-width: 768px) {
+    width: 768px;}
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+  }}
+
+
+.hero__title {
+  margin-bottom: 30px;
+  color: var(--primary-bg-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0,06em;
+  text-transform: uppercase;
+}

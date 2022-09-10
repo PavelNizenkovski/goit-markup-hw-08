@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Портфолио</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+       <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"/>
+    <link rel="stylesheet" href="./css/main.min.css" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!--Heder-->
+   <header class="header">
+      <div class="header__container">
+        <a href="./index.html" class="logo"
+          >Web<span class="logo__studio">Studio</span></a>
+        <nav>
+          <ul class="site-nav list">
+            <li class="site-nav__item"><a href="#" class="site-nav__link">Студия</a></li>
+            <li class="site-nav__item"><a href="./portfolio.html" class="site-nav__link site-nav__link--current">Портфолио</a></li>
+            <li class="site-nav__item"><a href="#" class="site-nav__link">Контакты</a></li>
+          </ul>
+        </nav>
+        <ul class="auth-nav list">
+          <li class="auth-nav__item">
+            <a href="mailto:info@devstudio.com" class="auth-nav__link"
+              ><svg class="auth-nav__icon" width="16" height="12"><use href="images/symbol-defs.svg#icon-mail"></use></svg>info@devstudio.com</a
+            >
+          </li>
+          <li class="auth-nav__item">
+            <a href="tel:+380961111111" class="auth-nav__link"><svg class="auth-nav__icon" width="10" height="16"><use href="images/symbol-defs.svg#icon-smartphone"></use></svg>+38 096 111 11 11</a>
+          </li>
+        </ul>
+        <button type="button" class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobail-menu">
+          <svg width="19px" height="19px" aria-label="Переключатель мобильного меню">
+                  <use class="open-menu" href="./imeges8/symbol-defs.svg#icon-menu_24px"></use>
+        </svg> </button>
+      </div>
+    </header>
+    <main>
+      <!--Portfolio-->
+      <section class="portfolio">
+        <div class="container">
+        <!--<h1>Portfolio WebStudio</h1>-->
+       <ul class="portfolio__button-list list">
+          <li class="portfolio__item"><button type="button" class="button secondary">Все</button></li>
+          <li class="portfolio__item">
+            <button type="button" class="button secondary">Веб-сайты</button>
+          </li>
+          <li class="portfolio__item">
+            <button type="button" class="button secondary">Приложения</button>
+          </li>
+          <li class="portfolio__item">
+            <button type="button" class="button secondary">Дизайн</button>
+          </li>
+          <li class="portfolio__item">
+            <button type="button" class="button secondary">Маркетинг</button>
+          </li>
+        </ul>
+
+        <ul class="portfolio__list list">
+          <li class="portfolio__list-item">
+            <a class="portfolio__poster">
+            <div class="portfolio__box">
+              <picture>
+<source
+srcset="
+./imeges8/Portfolio/mobile/1portfoliomob1x.jpg 1x,
+./imeges8/Portfolio/mobile/1portfoliomob2x.jpg 2x" type="image/jpeg" media="(max-width:767px)">
+<source
+srcset="
+./imeges8/Portfolio/tablet/portf1tabl1x.jpg 1x,
+./imeges8/Portfolio/tablet/portf1tabl2x.jpg 2x" type="image/jpeg" media="(min-width:768px)">
+<source
+srcset="
+./imeges8/Portfolio/destop/portf1des1x.jpg 1x,
+./imeges8/Portfolio/destop/portf1des1x.jpg 2x" type="image/jpeg" media="(min-width:768px)">
+              <img
+              src="./imeges8/Portfolio/destop/portf1des1x.jpg" class="portfolio__foto"
+              alt="ноутбук"
+            />
+              
+          </picture><p class="portfolio__paragraph">Ресурс предлагает комплексные предложения с разным уровнем функционала и сервисов. Все это позволит посетителю получить исчерпывающие сведения о компании или частном лице.</p></div>
+            <div class="portfolio__item-border">
+            <h2 class="portfolio__title">Технокряк</h2>
+            <p class="portfolio__paragraphh">Веб-сайт</p></div></a>
+          </li>
+          <li class="portfolio__list-item">
+            <a class="portfolio__poster">
+            <div class="portfolio__box">
+              <picture>
+<source
+srcset=" 
+./imeges8/Portfolio/mobile/2portfoliomob1x.jpg 1x,
+./imeges8/Portfolio/mobile/2portfoliomob2x.jpg 2x" type="image/jpeg" media="(max-width:767px)">
+<source
+srcset=" 
+./imeges8/Portfolio/tablet/portf2tabl1x.jpg 1x,
+./imeges8/Portfolio/tablet/portf2tabl2x.jpg 2x" type="image/jpeg" media="(min-width:768px)">
+<source
+srcset="
+./imeges8/Portfolio/destop/portf2des1x.jpg 1x,
+./imeges8/Portfolio/destop/portf2des2x.jpg 2x" type="image/jpeg" media="(min-width:1200px)">
+              <img
+              src="./imeges8/Portfolio/destop/portf2des1x.jpg" class="portfolio__foto"
+              alt="баскетболисты"
+          
+              />
+            </picture><p class="portfolio__paragraph">Полное руководство по дизайну плаката: более 80 советов и шаблоны на все случаи жизни.</p></div>
+            <div class="portfolio__item-border"><h2 class="portfolio__title">Постер New Orlean vs Golden Star</h2>
+            <p class="portfolio__paragraphh">Дизайн</p></div></a>
+          </li>
+          <li class="portfolio__list-item">
+            <a class="portfolio__poster">
+             <div class="portfolio__box">
+              <picture>
+              <source
+              srcset="
+              ./imeges8/Portfolio/mobile/3portfoliomob1x.jpg 1x,
+              ./imeges8/Portfolio/mobile/3portfoliomob2x.jpg 2x" type="image/jpeg" media="(max-width:767px)">
+<source
+srcset="
+./imeges8/Portfolio/tablet/portf3tabl1x.jpg 1x,
+./imeges8/Portfolio/tablet/portf3tabl2x.jpg 2x" type="image/jpeg" media="(min-width:768px)"> 
+<source
+srcset="
+./imeges8/Portfolio/destop/portf3des1x.jpg 1x,
+./imeges8/Portfolio/destop/portf3des1x.jpg 2x" type="image/jpeg" media="(min-width:1200px)">
+              <img
+              src="./imeges8/Portfolio/destop/portf3des1x.jpg" class="portfolio__foto"
+              alt="лого морская еда"
+            
+            /></picture>
+            <p class="portfolio__paragraph">Автоматизируйте рутину в учете, анализе меню и заказе поставок. Наши приложения понимают бизнес‑кухню общепита. Бухгалтерия, интеграция с 1С, Демо-доступ.</p></div>
+            <div class="portfolio__item-border"><h2 class="portfolio__title">Ресторан Seafood</h2>
+            <p class="portfolio__paragraphh">Приложение</p></div></a>
+          </li>
+          <li class="portfolio__list-item">
+            <a class="portfolio__poster">
+             <div class="portfolio__box">
+              <picture>
+              <source
+              srcset="
+              ./imeges8/Portfolio/mobile/4portfoliomob1x.jpg 1x,
+              ./imeges8/Portfolio/mobile/4portfoliomob2x.jpg 2x" type="image/jpeg" media="(max-width:767px)"> 
+              <source
+              srcset="
+              ./imeges8/Portfolio/tablet/portf4tabl1x.jpg 1x,
+              ./imeges8/Portfolio/tablet/portf4tabl2x.jpg 2x" type="image/jpeg" media="(min-width:768px)">
+             <source
+             srcset="
+             ./imeges8/Portfolio/destop/portf4des1x.jpg 1x,
+             ./imeges8/Portfolio/destop/portf4des2x.jpg 2x" type="image/jpeg" media="(min-width:1200px)">
+              <img
+              src="./imeges8/Portfolio/destop/portf4des1x.jpg" class="portfolio__foto"
+              alt="наушники"
+            
+            /></picture><p class="portfolio__paragraph">Услуга разработки маркетинговой
+               стратегии в нашей компании адаптирована специально
+                для представителей этого бизнеса и позволяет сделать процесс планирования маркетинговой деятельности простым и в то же время эффективным.</p></div>
+            <div class="portfolio__item-border"><h2 class="portfolio__title">Проект Prime</h2>
+            <p class="portfolio__paragraphh">Маркетинг</p></div></a>
+          </li>
+          <li class="portfolio__list-item">
+            <a class="portfolio__poster">
+            <div class="portfolio__box">
+            <picture>
+<source
+srcset="
+./imeges8/Portfolio/mobile/5portfoliomob1x.jpg 1x,
+./imeges8/Portfolio/mobile/5portfoliomob2x.jpg 2x" type="image/jpeg" media="(max-width:767px)">
+ <source
+ srcset=" 
+ ./imeges8/Portfolio/tablet/portf5tabl1x.jpg 1x,
+ ./imeges8/Portfolio/tablet/portf5tabl2x.jpg 2x" type="image/jpeg" media="(min-width:768px)">          
+<source
+srcset="
+./imeges8/Portfolio/destop/portf5des1x.jpg 1x,
+./imeges8/Portfolio/destop/portf5des2x.jpg 2x" type="image/jpeg" media="(min-width:1200px)">           
+              <img
+              src="./imeges8/Portfolio/destop/portf5des1x.jpg" class="portfolio__foto"
+              alt="коробки"
+            
+            /></picture><p class="portfolio__paragraph">Что такое Boxes? Boxex позволяет хранить все файлы вашего бизнеса в одном месте для простой совместной работы в Интернете.</p></div>
+            <div class="portfolio__item-border"><h2 class="portfolio__title">Проект Boxes</h2>
+            <p class="portfolio__paragraphh">Приложение</p></div></a>
+          </li>
+          <li class="portfolio__list-item">
+           <a class="portfolio__poster"> 
+           <div class="portfolio__box">
+            <picture>
+<source 
+srcset="
+./imeges8/Portfolio/mobile/6portfoliomob1x.jpg 1x,
+./imeges8/Portfolio/mobile/6portfoliomob1x.jpg 2x" type="image/jpeg" media="(max-width:767px)">
+<source
+srcset="
+./imeges8/Portfolio/tablet/portf6tabl1x.jpg 1x,
+./imeges8/Portfolio/tablet/portf6tabl1x.jpg 2x" type="image/jpeg" media="(min-width:768px">         
+<source
+srcset="
+./imeges8/Portfolio/destop/portf6des1x.jpg 1x,
+./imeges8/Portfolio/destop/portf6des2x.jpg 2x" type="image/jpeg" media="(min-width:1200px">          
+            <img
+              src="./imeges8/Portfolio/destop/portf6des1x.jpg" class="portfolio__foto"
+              alt="Монитор"
+            
+            /></picture><p class="portfolio__paragraph">Нет задач, которые мы не можем решить. Сайт, который будет выделяться среди конкурентов. Закажите эффективный продающий сайт для вашего бизнеса "под ключ".</p></div>
+            <div class="portfolio__item-border"><h2 class="portfolio__title">Inspiration has no Borders</h2>
+            <p class="portfolio__paragraphh">Веб-сайт</p></div></a>
+          </li>
+          <li class="portfolio__list-item">
+            <a class="portfolio__poster">
+            <div class="portfolio__box">
+            <picture>
+            <source
+            srcset="
+            ./imeges8/Portfolio/mobile/7portfoliomob1x.jpg 1x,
+            ./imeges8/Portfolio/mobile/7portfoliomob2x.jpg 2x" type="image/jpeg" media="(max-width:767px)">
+            <source
+            srcset="
+            ./imeges8/Portfolio/tablet/portf7tabl1x.jpg 1x,
+            ./imeges8/Portfolio/tablet/portf7tabl2x.jpg 2x" type="image/jpeg" media="(min-width:768px)">
+          <source
+          srcset="
+          ./imeges8/Portfolio/destop/portf7des1x.jpg 1x,
+          ./imeges8/Portfolio/destop/portf7des2x.jpg 2x" type="image/jpeg" media="(min-width:1200px)">
+              <img
+              src="./imeges8/Portfolio/destop/portf7des1x.jpg" class="portfolio__foto"
+              alt="книга"
+            
+            /></picture><p class="portfolio__paragraph">Удобный генератор обложек книг от VebStydio позволяет быстро создать дизайн обложки книги. Выбирайте индивидуальные шаблоны, чтобы оформить обложку.</p></div>
+            <div class="portfolio__item-border"><h2 class="portfolio__title">Издание Limited Edition</h2>
+            <p class="portfolio__paragraphh">Дизайн</p></div></a>
+          </li>
+          <li class="portfolio__list-item">
+            <a class="portfolio__poster">
+            <div class="portfolio__box">
+            <picture>
+<source
+srcset="
+./imeges8/Portfolio/mobile/8portfoliomob1x.jpg 1x,
+./imeges8/Portfolio/mobile/8portfoliomob1x.jpg 2x" type="image/jpeg" media="(max-width:767px)">
+<source
+srcset="
+./imeges8/Portfolio/tablet/portf8tabl1x.jpg 1x,
+./imeges8/Portfolio/tablet/portf8tabl1x.jpg 2x" type="image/jpeg" media="(min-width:768px)">
+<source
+srcset="
+./imeges8/Portfolio/destop/portf8des1x.jpg 1x,
+./imeges8/Portfolio/destop/portf8des1x.jpg 2x" type="image/jpeg" media="(min-width:1200px)">
+              <img
+              src="./imeges8/Portfolio/destop/portf8des1x.jpg" class="portfolio__foto"
+              alt="бирка"
+            
+            /></picture><p class="portfolio__paragraph">Как правильное формирование ценников может увеличить продажи. Какие приемы маркетинга можно использовать в ценообразовании.</p></div>
+            <div class="portfolio__item-border"><h2 class="portfolio__title">Проект LAB</h2>
+            <p class="portfolio__paragraphh">Маркетинг</p></div></a>
+          </li>
+          <li class="portfolio__list-item">
+            <a class="portfolio__poster">
+            <div class="portfolio__box">
+            <picture>
+<source 
+srcset="
+./imeges8/Portfolio/mobile/9portfoliomob1x.jpg 1x,
+./imeges8/Portfolio/mobile/9portfoliomob2x.jpg 2x" type="image/jpeg" media="(max-width:767px)">
+<source
+srcset="
+./imeges8/Portfolio/tablet/portf9tabl1x.jpg 1x,
+./imeges8/Portfolio/tablet/portf9tabl1x.jpg 2x" type="image/jpeg" media="(min-width:768px)">
+<source
+srcset="
+./imeges8/Portfolio/destop/portf9des1x.jpg 1x,
+./imeges8/Portfolio/destop/portf9des1x.jpg 2x" type="image/jpeg" media="(min-width:1200px)">
+              <img
+              src="./imeges8/Portfolio/destop/portf9des1x.jpg" class="portfolio__foto"
+              alt=" работа на ноутбуке"
+          
+            /></picture><p class="portfolio__paragraph">14 Дней Бесплатного Пользования. Рост продуктивности на 43%. Легкое внедрение в Ваш Бизнес.</p></div>
+            <div class="portfolio__item-border"><h2 class="portfolio__title">Growing Business</h2>
+            <p class="portfolio__paragraphh">Приложение</p></div></a>
+          </li>
+        </ul>
+        </div>
+      </section>
+    </main>
+    <!--Footer-->
+     <footer class="footer">
+      <div class="footer__container">
+        <div class="footer_contakt">
+        <div class="logo-studioff"><a href="./index.html" class="logo">Web<span class="logo-studiof">Studio</span></a></div>
+        <address class="address">
+          <span class="address__street">г. Киев, пр-т Леси Украинки, 26</span>
+            <ul class="address__list list">
+            <li class="address__item"><a href="mailto:info@devstudio.com" class="address__contakts"
+            >info@devstudio.com</a></li>
+            <li class="address__item"><a href="tel:+380961111111" class="address__contakts">+38 096 111 11 11</a></li>
+          </ul></address></div>
+          <div class="join"><h3 class="join__title">присоединяйтесь</h3>
+             <ul class="join__list list">
+                <li class="join__network"><a href="#" class="join__network-link"><svg class="join__network-icon" width="20" height="20"><use href="./images/symbol-defs.svg#icon-instagram-2-1"></use></svg></a></li>
+                <li class="join__network"><a href="#" class="join__network-link"><svg class="join__network-icon" width="20" height="20"><use href="./images/symbol-defs.svg#icon-twitter-1-1"></use></svg></a></li>
+                <li class="join__network"><a href="#" class="join__network-link"><svg class="join__network-icon" width="20" height="20"><use href="./images/symbol-defs.svg#icon-facebook-1-1"></use></svg></a></li>
+                <li class="join__network"><a href="#" class="join__network-link"><svg class="join__network-icon"  width="20" height="20"><use href="./images/symbol-defs.svg#icon-linkedin-1-1"></use></svg></a></li>
+              </ul></div>
+              <form class="subscription">
+              <div class="subscription__form" ><p class="subscription__paragraph">Подпишитесь на рассылку</p>
+              <input type="email" name="email" placeholder="E-mail"></div>
+              <button type="submit" class="button primary buttonf-topmarg"><div class="button-footer">Отправить<svg class="button-icon"  width="24" height="24"><use href="./images/symbol-defs.svg#icon-icon-send"></use></svg></div></button>
+              </form>
+      </div>
+    </footer>
+
+<div class="menu-container js-menu-container" id="mobail-menu">
+<div class="menu-container--top"><button type="button" class="menu-toggle js-close-menu">
+          <svg width="19px" height="19px" aria-label="Переключатель мобильного меню">
+          <use class="close-menu" href="./imeges8/symbol-defs.svg#icon-close_24px"></use> 
+        </svg> </button>
+<ul class="list">
+  <li class="menu-container__title site-nav__link--current"><a href="./index.html" class="menu-container__link ">Студия</a></li>
+  <li class="menu-container__title"><a href="./portfolio.html" class="menu-container__link">Портфолио</a></li>
+  <li class="menu-container__title"><a href="#" class="menu-container__link">Контакты</a></li>
+</ul></div>
+
+<div class="menu-container--botum"><a href="tel:+380961111111" class="menu-container__tel">+38 096 111 11 11</a>
+<a href="mailto:info@devstudio.com" class="menu-container__mail">info@devstudio.com</a>
+<ul class="menu-container__network list">
+  <li class="menu-container__network--link">Instagram</li>
+  <li class="menu-container__network--link">Twitter</li>
+  <li class="menu-container__network--link">Facebook</li>
+  <li class="menu-container__network--link">LinkedIn</li>
+</ul></div>
+</div>
+
+<script src="./js/menu.js"></script>
+  </body>
+</html>

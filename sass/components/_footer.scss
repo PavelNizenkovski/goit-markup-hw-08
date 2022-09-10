@@ -1,0 +1,203 @@
+.footer {
+  background-color: var(--footer-hero-color);
+
+ }
+
+.footer__container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 60px 1px;
+    @media screen and (max-width: 767px) {
+    max-width: 480px;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;}
+  @media screen and (min-width: 768px) {
+    width: 768px;}
+    display: flex;
+    flex-wrap: wrap;
+  @media screen and (min-width: 1200px) {
+    display: flex;
+    flex-direction: row;
+    width: 1200px;}}
+
+
+.footer_contakt {
+@media screen and (min-width: 768px) {
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-left: 61px;}
+@media screen and (min-width: 1200px) {
+display: flex;
+flex-direction: column;
+text-align: left;
+margin-left: 0;
+margin-right: 70px;}}
+
+
+.address {
+display: flex;
+flex-direction: column;
+@media screen and (max-width: 1199px) {
+margin-bottom: 60px;
+}
+  
+}
+
+
+.address__street {
+  margin-bottom: 8px;
+  color: var(--primary-bg-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  @media screen and (min-width: 1200px) {
+  margin-bottom: 9px;}}
+
+.address__item {
+&:not(:last-child)
+{margin-bottom: 8px;}
+@media screen and (min-width: 1200px) {
+&:not(:last-child)
+{margin-bottom: 8px;}}}
+
+
+.address__contakts {
+  color: var(--text-footer-color);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  text-decoration: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.address__street:hover,
+.address__street:focus,
+.address__contakts:hover,
+.address__contakts:focus {
+  color: #2196f3;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.join {
+@media screen and ( max-width: 767px) {
+margin-bottom: 60px;}
+@media screen and (min-width: 768px) {
+margin-left: auto;
+margin-right: 74px; }
+@media screen and (min-width: 1200px) {
+
+}}
+
+.join__title {
+margin-bottom: 20px;
+color: var(--primary-bg-color);
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+text-align: center;
+}
+
+.join__list {
+display: flex;
+align-self: center;
+justify-content: center;
+}
+
+.join__network {
+&:nth-child(n+2) {
+margin-left: 10px;
+}}
+
+.join__network-link {
+display: flex;
+align-self: center;
+justify-content: center;
+width: 44px;
+height: 44px;
+border-radius: 50%;
+color: var(--primary-bg-color);
+background-color: rgba(255, 255, 255, 0.1);
+transition: cbackground-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+&:hover,
+&:focus {
+background-color:var(--accent-color);
+cursor: auto;
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}}
+
+
+.join__network-icon {
+display: flex;
+align-self: center;
+justify-content: center;
+fill: currentColor;}
+
+
+.subscription {
+display: flex;
+flex-direction:column;
+justify-content: center;
+@media screen and (min-width: 768px){
+margin-left: auto;
+margin-right: auto;}
+@media screen and (min-width: 1200px){
+flex-direction: row;
+margin-right: 0;}}
+
+
+.subscription__form {
+@media screen and (min-width: 1200px){
+display: flex;
+flex-direction: column;
+justify-content: left;}}
+
+.subscription__paragraph {
+font-weight: 700;
+margin-bottom: 20px;
+color: var(--primary-bg-color);
+font-size: 14px;
+line-height: 1.14;
+text-transform: uppercase;
+@media screen and (min-width: 768px) {
+text-align: center;}
+@media screen and (min-width: 1200px) {
+text-align: left;}
+}
+
+.subscription input {
+appearance: none;
+max-width: 450px;
+height: 50px;
+padding: 15px 0px 15px 16px;
+color: var(--primary-bg-color);
+background-color: var(--footer-hero-color);
+border: 1px solid rgba(255, 255, 255, 0.3);
+outline: rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+@media screen and (max-width: 1199px) {
+margin-bottom: 20px;}
+@media screen and (max-width: 767px){
+width: 100%;
+max-width: 450px;}
+@media screen and (min-width: 768px) {
+width: 450px;}
+@media screen and (min-width: 1200px) {
+margin-right: 12px;
+width: 358px;}}
+
+
+.form-footer input::placeholder {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.25;
+color: rgba(255, 255, 255, 0.6);
+}

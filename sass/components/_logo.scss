@@ -1,0 +1,31 @@
+.logo {
+color: var(--accent-color);
+font-weight: 700;
+font-family: $second-font-family;
+text-decoration: none;
+font-size: 24px;
+line-height: 1.17;
+@media screen and (min-width: 768px){
+font-size: 24px;
+line-height: 1.17;}
+@media screen and (max-width: 767px){
+display: inline-block;
+margin: 16px auto 16px 0px;}
+@media screen and (min-width: 1200px) {
+    font-size: 26px;
+    line-height: 1.2;
+    padding: 0;
+  
+    margin-right: 70px;}}
+  
+.logo__studio {
+  color: var(--primary-text-color);}
+
+.logo-studiof {
+  color: var(--primary-bg-color);
+}
+
+
+  .logo-studioff {
+ margin-bottom: 20px;
+}
