@@ -6,17 +6,19 @@ text-decoration: none;
 font-size: 24px;
 line-height: 1.17;
 @media screen and (min-width: 768px){
+margin-right: 87px;
 font-size: 24px;
 line-height: 1.17;}
 @media screen and (max-width: 767px){
 display: inline-block;
-margin: 16px auto 16px 0px;}
+margin: 16px 0px 16px 0px;}
 @media screen and (min-width: 1200px) {
     font-size: 26px;
     line-height: 1.2;
     padding: 0;
+    margin-right: 93px;
   
-    margin-right: 70px;}}
+  }}
   
 .logo__studio {
   color: var(--primary-text-color);}
